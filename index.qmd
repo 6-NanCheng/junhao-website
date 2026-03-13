@@ -1,0 +1,106 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+::: {.hero-section}
+::: {.hero-content}
+
+::: {.hero-avatar}
+![](images/avatar.png){.avatar-img}
+:::
+
+::: {.hero-text}
+# 你好，我是张俊豪 👋
+
+**数据科学爱好者 · 统计学研究生 · Quarto 学习者**
+
+就读于中山大学统计学院，热衷于用数据讲述故事，探索统计建模与机器学习的奥秘。
+目前正在学习 Quarto，希望通过这个网站记录我的学习历程与成果。
+
+::: {.hero-buttons}
+[了解我 →](about.qmd){.btn .btn-primary}
+[查看项目 →](projects.qmd){.btn .btn-outline}
+[阅读博客 →](blog/index.qmd){.btn .btn-outline}
+:::
+
+:::
+:::
+:::
+
+---
+
+## 🌟 技能速览
+
+::: {.skills-grid}
+
+::: {.skill-card}
+### 📊 数据分析
+R · Python · SQL · Excel  
+从数据清洗到可视化，全流程处理
+:::
+
+::: {.skill-card}
+### 🤖 统计建模
+线性回归 · 贝叶斯推断  
+广义线性模型 · 时间序列
+:::
+
+::: {.skill-card}
+### 🎨 数据可视化
+ggplot2 · matplotlib · Plotly  
+让数据开口说话
+:::
+
+::: {.skill-card}
+### 📝 文档写作
+Quarto · R Markdown · LaTeX  
+可重复性研究与技术写作
+:::
+
+:::
+
+---
+
+## 🔥 最新动态
+
+::: {.timeline}
+
+::: {.timeline-item}
+**2026.03** — 🎉 个人网站上线！开始记录 Quarto 学习之旅
+:::
+
+::: {.timeline-item}
+**2026.02** — 📚 完成《贝叶斯统计》课程，开始实战项目
+:::
+
+::: {.timeline-item}
+**2025.12** — 🏆 参加全国大学生统计建模大赛，获三等奖
+:::
+
+::: {.timeline-item}
+**2025.09** — 🎓 正式入学中山大学统计学院研究生
+:::
+
+:::
+
+---
+
+## 📬 联系我
+
+::: {.contact-row}
+
+::: {.contact-item}
+📧 [junhao@example.com](mailto:junhao@example.com)
+:::
+
+::: {.contact-item}
+🐙 [GitHub @junhaozhang](https://github.com/junhaozhang)
+:::
+
+::: {.contact-item}
+📍 广州，广东
+:::
+
+:::

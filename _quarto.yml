@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "张俊豪 | Junhao Zhang"
+  description: "数据科学爱好者 · 统计学研究生 · Quarto 学习者"
+  favicon: images/favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: 🏠 首页
+      - href: about.qmd
+        text: 👤 关于我
+      - href: projects.qmd
+        text: 🚀 项目
+      - href: blog/index.qmd
+        text: 📝 博客
+    right:
+      - icon: github
+        href: https://github.com/junhaozhang
+      - icon: envelope
+        href: mailto:junhao@example.com
+    background: primary
+    foreground: light
+
+  sidebar: false
+
+  page-footer:
+    left: "© 2026 张俊豪 · Built with [Quarto](https://quarto.org)"
+    right:
+      - icon: github
+        href: https://github.com/junhaozhang
+      - icon: envelope
+        href: mailto:junhao@example.com
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    highlight-style: github

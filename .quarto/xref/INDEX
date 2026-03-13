@@ -1,0 +1,20 @@
+{
+  "about.qmd": {
+    "about.html": "94a5d538"
+  },
+  "blog/index.qmd": {
+    "index.html": "fecfe8bc"
+  },
+  "blog/posts/bayesian-intro/index.qmd": {
+    "index.html": "5782bd3b"
+  },
+  "blog/posts/quarto-intro/index.qmd": {
+    "index.html": "4b6b29eb"
+  },
+  "index.qmd": {
+    "index.html": "5efbc720"
+  },
+  "projects.qmd": {
+    "projects.html": "aab8873b"
+  }
+}

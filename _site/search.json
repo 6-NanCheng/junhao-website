@@ -1,0 +1,247 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "项目展示",
+    "section": "",
+    "text": "这里展示我的部分个人项目与研究成果，持续更新中……"
+  },
+  {
+    "objectID": "projects.html#研究项目",
+    "href": "projects.html#研究项目",
+    "title": "项目展示",
+    "section": "🔬 研究项目",
+    "text": "🔬 研究项目\n\n\n\n🧬 基因表达数据的高维变量选择\n\n\n类型：学术研究 · 进行中\n技术栈：R · glmnet · LASSO · 交叉验证\n针对高维基因表达数据（p &gt;&gt; n）的变量选择问题，比较 LASSO、Elastic Net 和 SCAD 等惩罚回归方法在不同模拟场景下的表现，评估各方法的选变量一致性与预测精度。\n主要成果： - 实现多方法对比的 R 仿真框架 - 发现 Elastic Net 在强相关特征下表现最优 - 整理为 Quarto 格式的可重复研究报告\n📂 查看代码\n\n\n\n\n🌫️ 广州市空气质量预测\n\n\n类型：本科科研项目 · 已完成\n技术栈：Python · ARIMA · LSTM · pandas · matplotlib\n基于广州市 2018—2023 年逐日 AQI 数据，构建 ARIMA-LSTM 混合预测模型，并与传统时间序列方法进行横向比较。\n主要成果： - 混合模型 RMSE 比纯 ARIMA 降低 18% - 项目结题评级：优秀 - 代码已开源至 GitHub\n📂 查看代码"
+  },
+  {
+    "objectID": "projects.html#数据分析项目",
+    "href": "projects.html#数据分析项目",
+    "title": "项目展示",
+    "section": "💻 数据分析项目",
+    "text": "💻 数据分析项目\n\n\n\n📊 电商用户流失预测\n\n\n类型：实习项目 · 已完成\n技术栈：Python · XGBoost · SHAP · sklearn\n基于电商平台用户行为日志（100万+ 条记录），构建用户流失预测模型，并使用 SHAP 值解释关键影响因素。\n主要成果： - 模型 AUC = 0.87，KS = 0.52 - 识别出”近30日无购买”为最强流失信号 - 辅助产品团队制定精准召回策略\n📂 查看代码\n\n\n\n\n📈 A股上市公司财务数据可视化\n\n\n类型：个人项目 · 已完成\n技术栈：R · ggplot2 · plotly · tidyverse\n爬取并清洗沪深300成分股近5年财务数据，制作交互式可视化仪表盘，展示各行业财务指标分布与趋势。\n主要成果： - 覆盖300支股票、5年数据 - 实现行业筛选、指标对比等交互功能 - 以 Quarto 网页形式发布\n📂 查看报告"
+  },
+  {
+    "objectID": "projects.html#工具-小项目",
+    "href": "projects.html#工具-小项目",
+    "title": "项目展示",
+    "section": "🛠️ 工具 / 小项目",
+    "text": "🛠️ 工具 / 小项目\n\n\n\n🔧 R 数据清洗工具包（练习）\n\n\n技术栈：R · devtools · testthat\n封装常用数据清洗函数，包括缺失值处理、异常值检测、数据类型转换等，作为学习 R 包开发的练习项目。\n📂 查看代码\n\n\n\n\n🌐 个人 Quarto 网站\n\n\n技术栈：Quarto · HTML · CSS\n就是你现在看到的这个网站！用于展示个人简历、项目与学习笔记，同时作为学习 Quarto 的实践项目。\n📂 查看源码"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html",
+    "href": "blog/posts/quarto-intro/index.html",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "",
+    "text": "Quarto 是一个基于 Pandoc 的下一代开源科学与技术出版系统，由 Posit（RStudio 的母公司）开发。\n它的核心特点：\n\n✅ 支持 R、Python、Julia、Observable JS 多语言代码执行\n✅ 输出格式丰富：HTML、PDF、Word、幻灯片、网站、书籍……\n✅ 是 R Markdown 的继承者，但更加通用\n✅ 内置支持交叉引用、参考文献、数学公式\n\n简单来说，Quarto 让你可以用 Markdown 写文档，同时嵌入可运行的代码，最终发布为精美的网页或 PDF。"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#什么是-quarto",
+    "href": "blog/posts/quarto-intro/index.html#什么是-quarto",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "",
+    "text": "Quarto 是一个基于 Pandoc 的下一代开源科学与技术出版系统，由 Posit（RStudio 的母公司）开发。\n它的核心特点：\n\n✅ 支持 R、Python、Julia、Observable JS 多语言代码执行\n✅ 输出格式丰富：HTML、PDF、Word、幻灯片、网站、书籍……\n✅ 是 R Markdown 的继承者，但更加通用\n✅ 内置支持交叉引用、参考文献、数学公式\n\n简单来说，Quarto 让你可以用 Markdown 写文档，同时嵌入可运行的代码，最终发布为精美的网页或 PDF。"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#安装-quarto",
+    "href": "blog/posts/quarto-intro/index.html#安装-quarto",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "安装 Quarto",
+    "text": "安装 Quarto\n\n1. 下载 Quarto CLI\n前往 https://quarto.org/docs/get-started/ 下载安装包。\n支持 Windows、macOS、Linux。\n\n\n2. 验证安装\nquarto --version\n如果输出版本号（如 1.6.x），说明安装成功。\n\n\n3. 配套工具\n\nRStudio（≥ 2022.07）已内置 Quarto 支持\nVS Code 安装 Quarto 扩展\nPositron（新一代 R/Python IDE）原生支持 Quarto"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#创建第一个-quarto-网站",
+    "href": "blog/posts/quarto-intro/index.html#创建第一个-quarto-网站",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "创建第一个 Quarto 网站",
+    "text": "创建第一个 Quarto 网站\n\n初始化项目\n# 创建网站项目\nquarto create project website my-website\n\n# 进入目录\ncd my-website\n这会生成以下文件：\nmy-website/\n├── _quarto.yml     # 网站配置文件\n├── index.qmd       # 首页\n├── about.qmd       # 关于页面\n└── styles.css      # 自定义样式\n\n\n本地预览\nquarto preview\n浏览器会自动打开 http://localhost:4321，并在你修改文件时实时刷新。\n\n\n构建网站\nquarto render\n生成的 HTML 文件保存在 _site/ 目录。"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#quarto.yml-配置详解",
+    "href": "blog/posts/quarto-intro/index.html#quarto.yml-配置详解",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "_quarto.yml 配置详解",
+    "text": "_quarto.yml 配置详解\n这是网站的核心配置文件：\nproject:\n  type: website          # 项目类型\n\nwebsite:\n  title: \"我的网站\"      # 网站标题\n  navbar:                # 导航栏\n    left:\n      - href: index.qmd\n        text: 首页\n      - href: about.qmd\n        text: 关于\n\nformat:\n  html:\n    theme: cosmo         # Bootstrap 主题\n    css: styles.css      # 自定义 CSS\n    toc: true            # 显示目录"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#quarto-文档结构",
+    "href": "blog/posts/quarto-intro/index.html#quarto-文档结构",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "Quarto 文档结构",
+    "text": "Quarto 文档结构\n每个 .qmd 文件由两部分组成：\n\nYAML 前置元数据\n---\ntitle: \"文章标题\"\ndate: \"2026-03-13\"\nauthor: \"张俊豪\"\ncategories: [教程, Quarto]\n---\n\n\nMarkdown 正文 + 代码块\n## 我的第一段代码\n\n```{r}\nlibrary(ggplot2)\nggplot(mtcars, aes(x = wt, y = mpg)) +\n  geom_point(color = \"steelblue\") +\n  theme_minimal()\n```\nQuarto 会执行代码并将图表嵌入输出文档，这就是可重复性研究的精髓！"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#添加博客功能",
+    "href": "blog/posts/quarto-intro/index.html#添加博客功能",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "添加博客功能",
+    "text": "添加博客功能\n在 _quarto.yml 中添加博客列表页：\nwebsite:\n  navbar:\n    left:\n      - href: blog/index.qmd\n        text: 博客\n博客索引页 blog/index.qmd：\n---\ntitle: \"博客\"\nlisting:\n  contents: posts      # 文章目录\n  sort: \"date desc\"    # 按日期降序\n  type: default        # 列表样式\n---\n然后在 blog/posts/ 目录下创建子目录，每个子目录对应一篇文章。"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#部署到-github-pages",
+    "href": "blog/posts/quarto-intro/index.html#部署到-github-pages",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "部署到 GitHub Pages",
+    "text": "部署到 GitHub Pages\n# 在 _quarto.yml 中设置输出目录\n# output-dir: docs\n\n# 渲染网站\nquarto render\n\n# 推送到 GitHub\ngit add .\ngit commit -m \"Deploy website\"\ngit push\n在 GitHub 仓库设置中，将 Pages 源设为 docs/ 目录即可。\n也可以使用 Quarto Pub 一键发布：\nquarto publish quarto-pub"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#小结",
+    "href": "blog/posts/quarto-intro/index.html#小结",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "小结",
+    "text": "小结\n\n\n\n功能\n命令\n\n\n\n\n本地预览\nquarto preview\n\n\n渲染构建\nquarto render\n\n\n发布到 Quarto Pub\nquarto publish quarto-pub\n\n\n发布到 GitHub Pages\nquarto publish gh-pages\n\n\n\nQuarto 是一个非常强大的工具，特别适合数据科学家和研究人员。后续我会继续分享更多 Quarto 进阶技巧，欢迎持续关注！"
+  },
+  {
+    "objectID": "blog/posts/quarto-intro/index.html#参考资料",
+    "href": "blog/posts/quarto-intro/index.html#参考资料",
+    "title": "Quarto 入门指南：从零开始搭建个人网站",
+    "section": "参考资料",
+    "text": "参考资料\n\nQuarto 官方文档\nQuarto 网站指南\nAwesome Quarto"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "博客",
+    "section": "",
+    "text": "记录我的学习历程、技术笔记与生活随想。\n主要涵盖：Quarto 学习 · 统计建模 · 数据科学 · 日常思考\n\n\n\n\n\n\n\n\n\n\nQuarto 入门指南：从零开始搭建个人网站\n\n\n\n\n\n\nQuarto\n\n\n教程\n\n\n建站\n\n\n\n本文介绍 Quarto 的基本概念、安装配置，以及如何用 Quarto 搭建个人学术网站。\n\n\n\n\n\nMar 13, 2026\n\n\n2 min\n\n\n\n\n\n\n\n贝叶斯统计入门：用硬币投掷理解贝叶斯思维\n\n\n\n\n\n\n统计学\n\n\n贝叶斯\n\n\nR语言\n\n\n\n通过一个简单的硬币投掷例子，直观理解先验分布、似然函数与后验分布的概念。\n\n\n\n\n\nFeb 20, 2026\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "关于我",
+    "section": "",
+    "text": "🎓 中山大学统计学院 · 统计学硕士研究生（2025 级）\n📍 广州，广东\n📧 junhao@example.com\n🐙 github.com/junhaozhang\n\n“数据是新时代的语言，统计是读懂世界的钥匙。”"
+  },
+  {
+    "objectID": "about.html#张俊豪-zhang-junhao",
+    "href": "about.html#张俊豪-zhang-junhao",
+    "title": "关于我",
+    "section": "",
+    "text": "🎓 中山大学统计学院 · 统计学硕士研究生（2025 级）\n📍 广州，广东\n📧 junhao@example.com\n🐙 github.com/junhaozhang\n\n“数据是新时代的语言，统计是读懂世界的钥匙。”"
+  },
+  {
+    "objectID": "about.html#教育经历",
+    "href": "about.html#教育经历",
+    "title": "关于我",
+    "section": "🎓 教育经历",
+    "text": "🎓 教育经历\n\n中山大学 · 统计学院\n统计学 硕士研究生\n📅 2025.09 — 至今 · 广州\n\n研究方向：贝叶斯统计与机器学习\n参与导师课题：高维数据的变量选择方法研究\n主修课程：高等统计推断、随机过程、统计计算\n\n\n\n华南师范大学 · 数学与统计学院\n统计学 学士学位\n📅 2021.09 — 2025.06 · 广州\n\n毕业论文：《基于 LASSO 的高维线性模型变量选择研究》（优秀论文）\n专业排名：前 10%\n获得国家励志奖学金（2022、2023 年度）"
+  },
+  {
+    "objectID": "about.html#实习-科研经历",
+    "href": "about.html#实习-科研经历",
+    "title": "关于我",
+    "section": "💼 实习 / 科研经历",
+    "text": "💼 实习 / 科研经历\n\n数据分析实习生 · 广州某科技有限公司\n📅 2024.07 — 2024.09\n\n参与用户行为数据清洗与分析，处理百万级数据\n使用 Python (pandas, sklearn) 构建用户流失预测模型，AUC 达 0.87\n撰写数据分析报告，辅助产品决策\n\n\n\n本科生科研项目 · 华南师范大学\n📅 2023.03 — 2024.06\n\n主持省级大学生创新创业训练项目\n研究广州市空气质量时间序列预测，基于 ARIMA-LSTM 混合模型\n项目结题评级：优秀"
+  },
+  {
+    "objectID": "about.html#技能清单",
+    "href": "about.html#技能清单",
+    "title": "关于我",
+    "section": "🛠️ 技能清单",
+    "text": "🛠️ 技能清单\n\n编程语言\n\n  \n    R（数据分析 / 统计建模）\n    \n  \n  \n    Python（机器学习 / 数据处理）\n    \n  \n  \n    SQL（数据库查询）\n    \n  \n  \n    LaTeX / Quarto（学术写作）\n    \n  \n\n\n\n专业技能\n\n\n\n类别\n技能\n\n\n\n\n统计方法\n线性/广义线性模型、贝叶斯推断、时间序列、生存分析\n\n\n机器学习\n随机森林、XGBoost、神经网络、LASSO/Ridge 回归\n\n\n数据可视化\nggplot2、matplotlib、Plotly、Tableau\n\n\n工具平台\nGit、RStudio、Jupyter、VS Code、Quarto"
+  },
+  {
+    "objectID": "about.html#荣誉奖项",
+    "href": "about.html#荣誉奖项",
+    "title": "关于我",
+    "section": "🏆 荣誉奖项",
+    "text": "🏆 荣誉奖项\n\n\n🥉 2025 全国大学生统计建模大赛 三等奖\n🏅 2024 广东省大学生数学建模竞赛 二等奖\n📜 2023 国家励志奖学金\n📜 2022 国家励志奖学金\n🎓 2025 优秀本科毕业论文"
+  },
+  {
+    "objectID": "about.html#语言能力",
+    "href": "about.html#语言能力",
+    "title": "关于我",
+    "section": "📚 语言能力",
+    "text": "📚 语言能力\n\n\n\n语言\n水平\n\n\n\n\n普通话\n母语\n\n\n粤语\n流利\n\n\n英语\nCET-6（562分）· 可阅读英文文献"
+  },
+  {
+    "objectID": "about.html#兴趣爱好",
+    "href": "about.html#兴趣爱好",
+    "title": "关于我",
+    "section": "🌱 兴趣爱好",
+    "text": "🌱 兴趣爱好\n\n📸 摄影 — 喜欢用镜头记录生活瞬间，尤其偏爱城市街拍与风光摄影\n🥾 徒步 — 曾完成广东多条徒步线路，享受户外与自然的宁静\n📖 阅读 — 偏爱科普与社科类书籍，近期在读《统计思维》《贫穷的本质》\n🎮 编程 — 热衷于用代码解决有趣的小问题，偶尔参加 Kaggle 比赛\n\n\n\n📄 下载完整简历 (PDF)"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html",
+    "href": "blog/posts/bayesian-intro/index.html",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "",
+    "text": "传统的频率派统计认为：参数是固定的未知常数，概率是频率的极限。\n而贝叶斯统计则认为：参数本身也是随机变量，我们对它有先验信念（Prior），在观察数据后更新为后验信念（Posterior）。\n这种思维方式更符合人类的认知过程：\n\n你相信某件事，观察到证据后，更新你的信念。"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html#为什么学贝叶斯",
+    "href": "blog/posts/bayesian-intro/index.html#为什么学贝叶斯",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "",
+    "text": "传统的频率派统计认为：参数是固定的未知常数，概率是频率的极限。\n而贝叶斯统计则认为：参数本身也是随机变量，我们对它有先验信念（Prior），在观察数据后更新为后验信念（Posterior）。\n这种思维方式更符合人类的认知过程：\n\n你相信某件事，观察到证据后，更新你的信念。"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html#贝叶斯定理",
+    "href": "blog/posts/bayesian-intro/index.html#贝叶斯定理",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "贝叶斯定理",
+    "text": "贝叶斯定理\n\\[P(\\theta | \\text{Data}) = \\frac{P(\\text{Data} | \\theta) \\cdot P(\\theta)}{P(\\text{Data})}\\]\n\n\n\n名称\n符号\n含义\n\n\n\n\n后验分布\n\\(P(\\theta \\| \\text{Data})\\)\n看到数据后对参数的信念\n\n\n似然函数\n\\(P(\\text{Data} \\| \\theta)\\)\n给定参数，数据出现的概率\n\n\n先验分布\n\\(P(\\theta)\\)\n看数据前对参数的信念\n\n\n边际似然\n\\(P(\\text{Data})\\)\n归一化常数"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html#硬币投掷示例",
+    "href": "blog/posts/bayesian-intro/index.html#硬币投掷示例",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "🪙 硬币投掷示例",
+    "text": "🪙 硬币投掷示例\n问题：你捡到一枚硬币，想知道它正面朝上的概率 \\(\\theta\\)。\n你投了 10 次，出现了 7 次正面。\\(\\theta\\) 是多少？\n\n第一步：设定先验\n我们假设对 \\(\\theta\\) 一无所知，用均匀分布作为先验：\n\\[\\theta \\sim \\text{Beta}(1, 1)\\]\nBeta 分布是硬币问题的共轭先验，非常方便。\n\n\n第二步：计算后验\n投掷 \\(n\\) 次，观察到 \\(k\\) 次正面，后验为：\n\\[\\theta | \\text{Data} \\sim \\text{Beta}(1 + k, \\ 1 + n - k)\\]\n在我们的例子中：\\(k=7, n=10\\)，所以：\n\\[\\theta | \\text{Data} \\sim \\text{Beta}(8, 4)\\]\n\n\n第三步：可视化（R 代码）\nlibrary(ggplot2)\n\n# 参数设置\nn &lt;- 10   # 投掷次数\nk &lt;- 7    # 正面次数\n\n# 先验：Beta(1,1) = 均匀分布\n# 后验：Beta(1+k, 1+n-k)\n\ntheta &lt;- seq(0, 1, length.out = 500)\n\ndf &lt;- data.frame(\n  theta = rep(theta, 2),\n  density = c(\n    dbeta(theta, 1, 1),              # 先验\n    dbeta(theta, 1 + k, 1 + n - k)  # 后验\n  ),\n  type = rep(c(\"先验 Beta(1,1)\", \"后验 Beta(8,4)\"), each = 500)\n)\n\nggplot(df, aes(x = theta, y = density, color = type, fill = type)) +\n  geom_line(linewidth = 1.2) +\n  geom_area(alpha = 0.2) +\n  scale_color_manual(values = c(\"先验 Beta(1,1)\" = \"#aaa\", \"后验 Beta(8,4)\" = \"#2196F3\")) +\n  scale_fill_manual(values  = c(\"先验 Beta(1,1)\" = \"#aaa\", \"后验 Beta(8,4)\" = \"#2196F3\")) +\n  labs(\n    title = \"贝叶斯更新：硬币正面概率的估计\",\n    x = expression(theta ~ \"（正面概率）\"),\n    y = \"概率密度\",\n    color = NULL, fill = NULL\n  ) +\n  theme_minimal(base_size = 13) +\n  theme(legend.position = \"top\")\n运行上面的代码，你会看到：\n\n灰色区域（先验）：完全平坦，表示我们对 \\(\\theta\\) 没有任何偏好\n蓝色区域（后验）：峰值在 0.7 左右，反映了 7/10 的观测结果"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html#后验的解读",
+    "href": "blog/posts/bayesian-intro/index.html#后验的解读",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "后验的解读",
+    "text": "后验的解读\n后验 \\(\\text{Beta}(8, 4)\\) 的一些关键统计量：\n\\[\\text{均值} = \\frac{8}{8+4} = 0.667\\]\n\\[\\text{众数} = \\frac{8-1}{8+4-2} = 0.7\\]\n95% 可信区间（Credible Interval）：\nqbeta(c(0.025, 0.975), shape1 = 8, shape2 = 4)\n# [1] 0.3768 0.9333\n与频率派的 95% 置信区间 不同，贝叶斯可信区间的含义更直观：\n\n“给定观测数据，\\(\\theta\\) 落在 \\([0.38, 0.93]\\) 内的概率为 95%。”"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html#先验的影响",
+    "href": "blog/posts/bayesian-intro/index.html#先验的影响",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "先验的影响",
+    "text": "先验的影响\n如果我们换一个先验，结果会如何？\n\n\n\n先验\n含义\n后验\n\n\n\n\nBeta(1,1)\n无信息先验\nBeta(8,4)\n\n\nBeta(10,10)\n认为硬币很公平\nBeta(17,13)\n\n\nBeta(0.5,0.5)\nJeffreys 先验\nBeta(7.5,3.5)\n\n\n\n当数据量足够大时，先验的影响会逐渐消退，后验趋向于似然函数的峰值（最大似然估计）。"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html#小结",
+    "href": "blog/posts/bayesian-intro/index.html#小结",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "小结",
+    "text": "小结\n贝叶斯统计的核心流程：\n先验信念 + 观测数据 → 后验信念\nPrior    + Likelihood → Posterior\n优点： - 自然地融入不确定性 - 可以逐步更新（Sequential Updating） - 估计结果有直观的概率解释\n挑战： - 先验的选择有主观性 - 高维情况下后验计算困难（需要 MCMC 等近似方法）\n下一篇文章，我将介绍如何用 Stan 或 brms 包在 R 中进行实际的贝叶斯建模，敬请期待！"
+  },
+  {
+    "objectID": "blog/posts/bayesian-intro/index.html#延伸阅读",
+    "href": "blog/posts/bayesian-intro/index.html#延伸阅读",
+    "title": "贝叶斯统计入门：用硬币投掷理解贝叶斯思维",
+    "section": "延伸阅读",
+    "text": "延伸阅读\n\n《贝叶斯数据分析》（Gelman et al.）— 贝叶斯统计圣经\nStatistical Rethinking — 强烈推荐的入门书籍\nBayesian Analysis with R — 免费在线教材"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "你好，我是张俊豪 👋",
+    "section": "",
+    "text": "数据科学爱好者 · 统计学研究生 · Quarto 学习者\n就读于中山大学统计学院，热衷于用数据讲述故事，探索统计建模与机器学习的奥秘。 目前正在学习 Quarto，希望通过这个网站记录我的学习历程与成果。\n\n了解我 → 查看项目 → 阅读博客 →"
+  },
+  {
+    "objectID": "index.html#技能速览",
+    "href": "index.html#技能速览",
+    "title": "你好，我是张俊豪 👋",
+    "section": "🌟 技能速览",
+    "text": "🌟 技能速览\n\n\n📊 数据分析\nR · Python · SQL · Excel\n从数据清洗到可视化，全流程处理\n\n\n🤖 统计建模\n线性回归 · 贝叶斯推断\n广义线性模型 · 时间序列\n\n\n🎨 数据可视化\nggplot2 · matplotlib · Plotly\n让数据开口说话\n\n\n📝 文档写作\nQuarto · R Markdown · LaTeX\n可重复性研究与技术写作"
+  },
+  {
+    "objectID": "index.html#最新动态",
+    "href": "index.html#最新动态",
+    "title": "你好，我是张俊豪 👋",
+    "section": "🔥 最新动态",
+    "text": "🔥 最新动态\n\n\n2026.03 — 🎉 个人网站上线！开始记录 Quarto 学习之旅\n\n\n2026.02 — 📚 完成《贝叶斯统计》课程，开始实战项目\n\n\n2025.12 — 🏆 参加全国大学生统计建模大赛，获三等奖\n\n\n2025.09 — 🎓 正式入学中山大学统计学院研究生"
+  },
+  {
+    "objectID": "index.html#联系我",
+    "href": "index.html#联系我",
+    "title": "你好，我是张俊豪 👋",
+    "section": "📬 联系我",
+    "text": "📬 联系我\n\n\n📧 junhao@example.com\n\n\n🐙 GitHub @junhaozhang\n\n\n📍 广州，广东"
+  }
+]

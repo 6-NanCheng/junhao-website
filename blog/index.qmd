@@ -1,0 +1,16 @@
+---
+title: "博客"
+toc: false
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [date, title, description, categories, reading-time]
+page-layout: full
+---
+
+> 记录我的学习历程、技术笔记与生活随想。  
+> 主要涵盖：**Quarto 学习** · **统计建模** · **数据科学** · **日常思考**

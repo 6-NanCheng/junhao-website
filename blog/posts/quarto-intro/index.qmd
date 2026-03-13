@@ -1,0 +1,217 @@
+---
+title: "Quarto 入门指南：从零开始搭建个人网站"
+description: "本文介绍 Quarto 的基本概念、安装配置，以及如何用 Quarto 搭建个人学术网站。"
+date: "2026-03-13"
+categories: [Quarto, 教程, 建站]
+image: thumbnail.png
+toc: true
+---
+
+## 什么是 Quarto？
+
+[Quarto](https://quarto.org) 是一个基于 Pandoc 的**下一代开源科学与技术出版系统**，由 Posit（RStudio 的母公司）开发。
+
+它的核心特点：
+
+- ✅ 支持 **R、Python、Julia、Observable JS** 多语言代码执行
+- ✅ 输出格式丰富：**HTML、PDF、Word、幻灯片、网站、书籍**……
+- ✅ 是 R Markdown 的继承者，但更加通用
+- ✅ 内置支持**交叉引用、参考文献、数学公式**
+
+简单来说，Quarto 让你可以用 Markdown 写文档，同时嵌入可运行的代码，最终发布为精美的网页或 PDF。
+
+---
+
+## 安装 Quarto
+
+### 1. 下载 Quarto CLI
+
+前往 [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/) 下载安装包。
+
+支持 Windows、macOS、Linux。
+
+### 2. 验证安装
+
+```bash
+quarto --version
+```
+
+如果输出版本号（如 `1.6.x`），说明安装成功。
+
+### 3. 配套工具
+
+- **RStudio**（≥ 2022.07）已内置 Quarto 支持
+- **VS Code** 安装 [Quarto 扩展](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
+- **Positron**（新一代 R/Python IDE）原生支持 Quarto
+
+---
+
+## 创建第一个 Quarto 网站
+
+### 初始化项目
+
+```bash
+# 创建网站项目
+quarto create project website my-website
+
+# 进入目录
+cd my-website
+```
+
+这会生成以下文件：
+
+```
+my-website/
+├── _quarto.yml     # 网站配置文件
+├── index.qmd       # 首页
+├── about.qmd       # 关于页面
+└── styles.css      # 自定义样式
+```
+
+### 本地预览
+
+```bash
+quarto preview
+```
+
+浏览器会自动打开 `http://localhost:4321`，并在你修改文件时**实时刷新**。
+
+### 构建网站
+
+```bash
+quarto render
+```
+
+生成的 HTML 文件保存在 `_site/` 目录。
+
+---
+
+## `_quarto.yml` 配置详解
+
+这是网站的核心配置文件：
+
+```yaml
+project:
+  type: website          # 项目类型
+
+website:
+  title: "我的网站"      # 网站标题
+  navbar:                # 导航栏
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: about.qmd
+        text: 关于
+
+format:
+  html:
+    theme: cosmo         # Bootstrap 主题
+    css: styles.css      # 自定义 CSS
+    toc: true            # 显示目录
+```
+
+---
+
+## Quarto 文档结构
+
+每个 `.qmd` 文件由两部分组成：
+
+### YAML 前置元数据
+
+```yaml
+---
+title: "文章标题"
+date: "2026-03-13"
+author: "张俊豪"
+categories: [教程, Quarto]
+---
+```
+
+### Markdown 正文 + 代码块
+
+````markdown
+## 我的第一段代码
+
+```{{r}}
+library(ggplot2)
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point(color = "steelblue") +
+  theme_minimal()
+```
+````
+
+Quarto 会**执行代码并将图表嵌入输出文档**，这就是可重复性研究的精髓！
+
+---
+
+## 添加博客功能
+
+在 `_quarto.yml` 中添加博客列表页：
+
+```yaml
+website:
+  navbar:
+    left:
+      - href: blog/index.qmd
+        text: 博客
+```
+
+博客索引页 `blog/index.qmd`：
+
+```yaml
+---
+title: "博客"
+listing:
+  contents: posts      # 文章目录
+  sort: "date desc"    # 按日期降序
+  type: default        # 列表样式
+---
+```
+
+然后在 `blog/posts/` 目录下创建子目录，每个子目录对应一篇文章。
+
+---
+
+## 部署到 GitHub Pages
+
+```bash
+# 在 _quarto.yml 中设置输出目录
+# output-dir: docs
+
+# 渲染网站
+quarto render
+
+# 推送到 GitHub
+git add .
+git commit -m "Deploy website"
+git push
+```
+
+在 GitHub 仓库设置中，将 Pages 源设为 `docs/` 目录即可。
+
+也可以使用 [Quarto Pub](https://quartopub.com) 一键发布：
+
+```bash
+quarto publish quarto-pub
+```
+
+---
+
+## 小结
+
+| 功能 | 命令 |
+|------|------|
+| 本地预览 | `quarto preview` |
+| 渲染构建 | `quarto render` |
+| 发布到 Quarto Pub | `quarto publish quarto-pub` |
+| 发布到 GitHub Pages | `quarto publish gh-pages` |
+
+Quarto 是一个非常强大的工具，特别适合数据科学家和研究人员。后续我会继续分享更多 Quarto 进阶技巧，欢迎持续关注！
+
+---
+
+## 参考资料
+
+- [Quarto 官方文档](https://quarto.org/docs/guide/)
+- [Quarto 网站指南](https://quarto.org/docs/websites/)
+- [Awesome Quarto](https://github.com/mcanouil/awesome-quarto)

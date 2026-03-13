@@ -1,0 +1,132 @@
+---
+title: "项目展示"
+toc: false
+---
+
+> 这里展示我的部分个人项目与研究成果，持续更新中……
+
+---
+
+## 🔬 研究项目
+
+::: {.project-grid}
+
+::: {.project-card}
+::: {.project-card-header .research}
+🧬 基因表达数据的高维变量选择
+:::
+::: {.project-card-body}
+**类型**：学术研究 · 进行中  
+**技术栈**：R · glmnet · LASSO · 交叉验证
+
+针对高维基因表达数据（p >> n）的变量选择问题，比较 LASSO、Elastic Net 和 SCAD 等惩罚回归方法在不同模拟场景下的表现，评估各方法的选变量一致性与预测精度。
+
+**主要成果**：
+- 实现多方法对比的 R 仿真框架
+- 发现 Elastic Net 在强相关特征下表现最优
+- 整理为 Quarto 格式的可重复研究报告
+
+[📂 查看代码](https://github.com/junhaozhang){.btn .btn-sm .btn-outline}
+:::
+:::
+
+::: {.project-card}
+::: {.project-card-header .research}
+🌫️ 广州市空气质量预测
+:::
+::: {.project-card-body}
+**类型**：本科科研项目 · 已完成  
+**技术栈**：Python · ARIMA · LSTM · pandas · matplotlib
+
+基于广州市 2018—2023 年逐日 AQI 数据，构建 ARIMA-LSTM 混合预测模型，并与传统时间序列方法进行横向比较。
+
+**主要成果**：
+- 混合模型 RMSE 比纯 ARIMA 降低 18%
+- 项目结题评级：优秀
+- 代码已开源至 GitHub
+
+[📂 查看代码](https://github.com/junhaozhang){.btn .btn-sm .btn-outline}
+:::
+:::
+
+:::
+
+---
+
+## 💻 数据分析项目
+
+::: {.project-grid}
+
+::: {.project-card}
+::: {.project-card-header .data}
+📊 电商用户流失预测
+:::
+::: {.project-card-body}
+**类型**：实习项目 · 已完成  
+**技术栈**：Python · XGBoost · SHAP · sklearn
+
+基于电商平台用户行为日志（100万+ 条记录），构建用户流失预测模型，并使用 SHAP 值解释关键影响因素。
+
+**主要成果**：
+- 模型 AUC = 0.87，KS = 0.52
+- 识别出"近30日无购买"为最强流失信号
+- 辅助产品团队制定精准召回策略
+
+[📂 查看代码](https://github.com/junhaozhang){.btn .btn-sm .btn-outline}
+:::
+:::
+
+::: {.project-card}
+::: {.project-card-header .data}
+📈 A股上市公司财务数据可视化
+:::
+::: {.project-card-body}
+**类型**：个人项目 · 已完成  
+**技术栈**：R · ggplot2 · plotly · tidyverse
+
+爬取并清洗沪深300成分股近5年财务数据，制作交互式可视化仪表盘，展示各行业财务指标分布与趋势。
+
+**主要成果**：
+- 覆盖300支股票、5年数据
+- 实现行业筛选、指标对比等交互功能
+- 以 Quarto 网页形式发布
+
+[📂 查看报告](https://github.com/junhaozhang){.btn .btn-sm .btn-outline}
+:::
+:::
+
+:::
+
+---
+
+## 🛠️ 工具 / 小项目
+
+::: {.project-grid}
+
+::: {.project-card}
+::: {.project-card-header .tool}
+🔧 R 数据清洗工具包（练习）
+:::
+::: {.project-card-body}
+**技术栈**：R · devtools · testthat
+
+封装常用数据清洗函数，包括缺失值处理、异常值检测、数据类型转换等，作为学习 R 包开发的练习项目。
+
+[📂 查看代码](https://github.com/junhaozhang){.btn .btn-sm .btn-outline}
+:::
+:::
+
+::: {.project-card}
+::: {.project-card-header .tool}
+🌐 个人 Quarto 网站
+:::
+::: {.project-card-body}
+**技术栈**：Quarto · HTML · CSS
+
+就是你现在看到的这个网站！用于展示个人简历、项目与学习笔记，同时作为学习 Quarto 的实践项目。
+
+[📂 查看源码](https://github.com/junhaozhang){.btn .btn-sm .btn-outline}
+:::
+:::
+
+:::
